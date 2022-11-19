@@ -45,13 +45,13 @@ def stone_wall(x_offset, y_offset, z_offset, length, height):
             x += width + gap
     bpy.ops.mesh.primitive_cube_add(size=2, location=(x_offset +length / 2, y_offset, height * (1 + scale) - 1 - gap / 2 + z_offset))
     cube = bpy.context.object
-    S = Matrix.Diagonal((length / 2, 0.8, height * (1 + scale))).to_4x4()
+    S = Matrix.Diagonal((length / 2, 0.6, height * (1 + scale))).to_4x4()
     cube.data.transform(S)
     cube.data.update()
 
 
 
-stone_wall( 5, 10, 10, 50, 8)
+stone_wall( 5, 15, 10, 10, 8)
 #stone_wall(10, 10, 10, 20, 4)
 #stone_wall(15, 10, 10, 20, 1)
 
@@ -266,5 +266,5 @@ def sign(x):
 
 
 
-stone_arch(0, 0, 0, 34.4, 45, 3.8, 3.8, 14)
+#stone_arch(0, 0, 0, 34.4, 45, 3.8, 3.8, 14)
 #stone_arch(0, 5, 0, 5.3, 45, 0.6, 0.6, 14, 0.2, keystone=1, pentagons=False, bevel=False)
