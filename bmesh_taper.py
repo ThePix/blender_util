@@ -17,6 +17,7 @@ taperY = False
 
 
 
+
 # Get the active mesh
 me = bpy.context.object.data
 
