@@ -1,11 +1,18 @@
-# This assumes we have a mesh object selected
+# Copyright 2022 Andy Joel
+
+# Select an object, then run this script.
+# Each vertice will be moved a small, random amount, giving brickwork, etc. a more realistic look.
+# Save before using, just in case, but if you do not like the results just do [CTRL]-Z
+# Change the value of degree to control the amount of variation.
+# 2 is going to be quite significant, and seems a good starting point so you can see it works
+# 5 is probably too much, remember you can use decimal values, so try 0.2.
 
 import bpy
 import bmesh
 import random
 
-# How much variation do you want? One seems a good starting point, 5 is to much for a brick
-degree = 5
+# Change the number here to control how much variation there will be.
+degree = 2
 
 
 # Get the active mesh
