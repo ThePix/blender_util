@@ -1,3 +1,5 @@
+# Copyright 2022 Andy Joel
+# Also consider using Simple deform
 
 import bpy
 import bmesh

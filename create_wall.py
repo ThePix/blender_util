@@ -1,7 +1,5 @@
-# https://docs.blender.org/api/current/info_quickstart.html
+# Copyright 2022 Andy Joel
 
-# To see error messages:
-# Windows - Toggle System Console
 
 import bpy
 import bmesh
