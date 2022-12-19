@@ -1,0 +1,186 @@
+Inner Beauty Models
+
+const data = [
+  category:'Features - Bridges',
+  data:[
+    {
+      name:'',
+      prototype:'',
+      comments:'',
+      options:'',
+      private:'',
+      status:'',
+    },
+    {
+      name:'ELR Ribble Bridge',
+      prototype:'Built by the ELR, not disused.',
+      comments:'',
+      options:'',
+      private:'bricks shrunk by 0.46. May not be suitable for selling',
+      status:'',
+    },
+    {
+      name:'Skewed iron bridge',
+      prototype:'Over Calder and hebble Nav, just east of ravensthorpe',
+      comments:'',
+      options:'',
+      private:'Spans about 25 m, at approx 45deg. Say 80' so 160 mm',
+      status:'Nothing actually done yet',
+    },
+    {
+      name:'Skewed lattice bridge',
+      prototype:'Darwen Road bridge, Blackburn',
+      comments:'This is a highly configurable bridge that you can adapt to suit what you need. You can have it perpendicular, or you can skew it to the left up to 65 degrees or to the right up to 65 degrees. It was designed for double track, but could readily be used for single or quad.\nThe span is approximately 100 mm (check!). For a large span, buy the extension kit, which includes extra side pieces and three supports. Each additional span adds about 106 mm.\nThe advantage of a lattice bridge, both for modellers and the real thing, is the infrastructure is mostly above rail height. This means you require less height between the rails on the bridge and whatever is below it.\nEach abutment requires a left abutment piece, a right abutment piece and a connecting wall. The two abutment pieces should be positioned so they are parallel to the track, and staggered with repect to each other. The connecting wall then goes between them, at the correct angle. The wall is designed for a double track bridge at an angle of about 65 degrees off the perpendicular (a bridge that is not skewed is perpendicular, the angle is zero). For single track and for smaller ankles, it will need to be cut. Note that it has coping bicks at the top. I would advise cutting the end that will form an obtuse angle with the abutment. Each abutment has a small recess in it to accommodate the connecting wall.',
+      options:'You can purchase extension sections, giving an extra span; includes three support pillars',
+      private:'',
+      status:'',
+    },
+    {
+      name:'Steel bridge',
+      prototype:'Copley Hill, Leeds middle bridge',
+      comments:'',
+      options:'',
+      private:'Each span about 73' p47 of Heyday of Early Diesels',
+      status:'Early days...',
+    },
+    {
+      name:'Canal bridge',
+      prototype:'Modelled after the many such bridges on the Lancaster canal',
+      comments:'',
+      options:'',
+      private:'385 pixels by 122 at widest 70. 17 m (55.8') by 5.4 m (17.7') to 3.1 (10.2'). 113 is 5 m. Canal is 109 px wide, 4.8 m, 15.7'. Bridge arch is 7.6 m wide, 25'. Bricks compressed 0.5. Arch compressed 0.7. Arch cylinder Location 0,0,4. Rotation 90,0,0. Scale 26,18, 20',
+      status:'Requires finishing, under the arch',
+    },
+      
+      
+
+
+
+
+  category:'Features - Tunnel Portals',
+  data:[
+    {
+      name:'Shotlock tunnel portal',
+      prototype:'On the Settle and Carlisle line',
+      comments:'',
+      options:'For a small additional fee, have a custom date on the tunnel mouth',
+      private:'Could also offer other wings options',
+      status:'Good to go',
+    },
+    {
+      name:'Gisburn tunnel portal',
+      prototype:'',
+      comments:'',
+      options:'',
+      private:'',
+      status:'Needs to be printed',
+    },
+
+
+
+
+
+
+  category:'Buildings',
+  data:[
+    {
+      name:'Lloyds Bank',
+      prototype:'Fishergate, Preston. i guess built 1930, but who knows?',
+      comments:'',
+      options:'',
+      private:'ca. 50 by 32. Ground floor is 18' high, other floors 9', top floor less?',
+      status:'In progress',
+    },
+    {
+      name:'Terrace house',
+      prototype:'',
+      comments:'',
+      options:'',
+      private:'19 mm is 10 m. 140 mm is 16 houses. each house is 140/16 x 10/19 m wide, 4.6 m, or 15 ', 27.5' deep, yard 17.5',
+      status:'In progress',
+    },
+    {
+      name:'Acregate Hotel',
+      prototype:'On New Hall lane, Preston',
+      comments:'Designed to fit with the terraced house',
+      options:'',
+      private:'30' by 64'',
+      status:'In progress',
+    },
+    {
+      name:'',
+      prototype:'',
+      comments:'',
+      options:'',
+      private:'',
+      status:'',
+    },
+
+
+
+
+BUILDINGS
+=========
+
+
+
+
+Eckington Bridge
+https://www.flickr.com/photos/142805908@N08/31687658295/
+
+
+
+
+
+Cement works
+https://www.28dayslater.co.uk/threads/shoreham-cement-works-may-2017.110286/
+
+
+
+Terrace
+
+
+
+
+
+
+
+
+
+
+
+Standard brick is 65x215x102.5 mm
+In N gauge 0.44x1.45x0.69 mm
+
+Divide height by 2.6, width by 5.8 and 
+
+
+
+
+
+Cryopod
+Control panel
+Alien control panel
+Transmitter tower
+Modular building
+Turret
+Crane/bulldozer/etc
+Monorail
+Subterrean vent
+Surveillance post
+Portal
+Container and loader
+Vehicle
+Advertising hording
+
+
+
+
+Market stall
+Magic shop
+Portal
+Totem pole
+Cage
+Hanging cage
+Cart
+Tower
