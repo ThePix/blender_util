@@ -1,5 +1,21 @@
 Inner Beauty Models
 
+Elegoo coupon ytTNdM6c
+
+
+http://www.worcsngauge.co.uk/NStandards.htm
+https://85a.uk/templot/archive/topics/gallery/2/original/2_040252_350000001.gif
+
+
+Bridge skew
+
+I am not sure how universal this is, but this is the system at least some people use, and seems the best to me.
+Consider the over bridge being horizontal on the map. The angle of skew is how far off the perpendicular the route underneath is. A positive angle indicates it is skewed clockwise.
+
+At bridge that is not skewed therefore has a skew angle of zero.
+
+
+
 const data = [
   category:'Features - Bridges',
   data:[
@@ -37,11 +53,11 @@ const data = [
     },
     {
       name:'Steel bridge',
-      prototype:'Copley Hill, Leeds middle bridge',
+      prototype:'Copley Hill, Leeds middle bridge. This is on the GNR line from Leeds to Wakefield, just a short way west of Leeds station. It is based on the north side of the bridge, the south side is a little different.',
       comments:'',
       options:'',
-      private:'Each span about 73' p47 of Heyday of Early Diesels',
-      status:'Early days...',
+      private:'Each span about 75' p47 of Heyday of Early Diesels',
+      status:'Requires wings. Variations are possible. Needs printing to see if the central support is a good idea.',
     },
     {
       name:'Canal bridge',
@@ -50,6 +66,30 @@ const data = [
       options:'',
       private:'385 pixels by 122 at widest 70. 17 m (55.8') by 5.4 m (17.7') to 3.1 (10.2'). 113 is 5 m. Canal is 109 px wide, 4.8 m, 15.7'. Bridge arch is 7.6 m wide, 25'. Bricks compressed 0.5. Arch compressed 0.7. Arch cylinder Location 0,0,4. Rotation 90,0,0. Scale 26,18, 20',
       status:'Requires finishing, under the arch',
+    },
+    {
+      name:'Steel bridge crossing tracks',
+      prototype:'Camden approach to Euston',
+      comments:'',
+      options:'',
+      private:'Each span about 73' p55 and 59 of Heyday of Early Diesels',
+      status:'Early days...',
+    },
+    {
+      name:'Footbridge',
+      prototype:'Stock??? nar Hexham',
+      comments:'',
+      options:'',
+      private:'',
+      status:'Early days...',
+    },
+    {
+      name:'The Arches',
+      prototype:'Semi-through plate girder bridge here:https://www.warwickshirerailways.com/gwr/gwrha2813.htm|Cast iron arch bridge is from Lutan arches, Chatham',
+      comments:'',
+      options:'',
+      private:'',
+      status:'Early days...',
     },
       
       
@@ -142,9 +182,12 @@ Terrace
 
 
 
+Eckington Bridge, Worcs
+
+kilburn high road station
 
 
-
+Warren Road bridge, Sonning Cutting
 
 
 
@@ -155,10 +198,181 @@ In N gauge 0.44x1.45x0.69 mm
 Divide height by 2.6, width by 5.8 and 
 
 
+Footbridge
+https://www.rmweb.co.uk/topic/85326-dave-fs-photos-ongoing-more-added-each-day/page/848/
+Inside arch is 69/12x2 m = 11.5 m, say 38'
+height from platform to inside arch is 3.6 m, say 12'
 
+
+https://www.flickr.com/photos/35891004@N05/38119995654/in/photostream/
+
+
+
+Tunnel mouth
+https://www.flickr.com/photos/35891004@N05/38048557534/in/photostream/
+
+
+
+Goods shed
+Acklington
+https://www.flickr.com/photos/96859208@N07/9589627765/
+
+Bolton (big!)
+https://www.flickr.com/photos/35891004@N05/38120937354/in/photostream/
+https://www.flickr.com/photos/35891004@N05/38120938104/in/photostream/
+
+
+signal box
+Askam 
+
+Rothbury
+https://www.flickr.com/photos/irishswissernie/36901052701/in/photostream/
+
+
+Bridge
+https://www.flickr.com/photos/35891004@N05/15697460314/in/photostream/
+
+
+Canopies
+https://www.rmweb.co.uk/topic/91758-chris-ts-photo-archives/page/31/
+
+Road bridge
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/52/
+
+
+Sloping road bridge
+https://www.flickr.com/photos/35891004@N05/50933741127/in/album-72157719210602025/
+
+
+Luton Arches, Chatham
+Span is 18.5 m, 60'
+
+
+
+
+Coal drop
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/4/
+
+
+Lorries
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/34/
+https://www.flickr.com/photos/118273204@N05/14650471632/
+
+
+Chappel & Wakes Colne station
+
+Threlkeld station
+http://www.disused-stations.org.uk/t/threlkeld/index1.html
+
+
+Dust cart
+https://www.flickr.com/photos/geoffsimages/15812095370/
+
+
+Industrial
+https://www.flickr.com/photos/12a_kingmoor_klickr/52045677960/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/187414118@N06/50422057088/
+https://www.flickr.com/photos/36034969@N08/50956554821/
+https://www.flickr.com/photos/95430950@N07/32132248964/
+https://www.flickr.com/photos/95430950@N07/32935192976/in/photostream/
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/36/
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/36/
+https://www.flickr.com/photos/187414118@N06/50841026141/ and onewards
+https://www.flickr.com/photos/185347149@N08/49000020048/
+https://www.flickr.com/photos/12a_kingmoor_klickr/50221345518/in/gallery-16896988@N08-72157719429614062/
+
+https://www.flickr.com/photos/99220921@N03/51267341667/in/gallery-16896988@N08-72157720535541185/
+https://www.flickr.com/photos/99220921@N03/51267341667/in/gallery-16896988@N08-72157720535541185/
+https://www.flickr.com/photos/nat37670/35154362041/in/gallery-16896988@N08-72157720535541185/
+https://www.flickr.com/photos/nicjoynson/51089399684/in/gallery-16896988@N08-72157720535541185/
+
+https://www.flickr.com/photos/12a_kingmoor_klickr/50155614908/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/65480188@N07/19089165520/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/world_railways/49717410557/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/99466199@N05/10714597126/in/gallery-16896988@N08-72157719429614062/
+
+
+https://www.flickr.com/photos/12a_kingmoor_klickr/50206141283/in/gallery-16896988@N08-72157719429614062/
+
+https://www.flickr.com/photos/12a_kingmoor_klickr/50101127983/in/gallery-16896988@N08-72157719429614062/
+
+https://www.flickr.com/photos/128839707@N03/20024863368/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/93173492@N00/1567810670/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/93173492@N00/2722820948/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/119495436@N08/47828720192/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/75784477@N08/32756325903/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/64518788@N05/9532737414/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/148713515@N04/32129177085/in/gallery-16896988@N08-72157719429614062/
+
+https://www.flickr.com/photos/148713515@N04/32246292436/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/154596801@N04/50830910801/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/2-6-2t5553/8490037832/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/12a_kingmoor_klickr/5758261981/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/38621348@N07/13858689544/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/22420011@N05/3260735648/in/gallery-16896988@N08-72157719218268050/
+
+https://www.flickr.com/photos/taffytank/13975123967/in/gallery-16896988@N08-72157719218268050/
+
+Chemical
+https://www.flickr.com/photos/12a_kingmoor_klickr/50150202118/in/gallery-16896988@N08-72157719429614062/
+
+https://www.flickr.com/photos/12a_kingmoor_klickr/6675478833/in/gallery-16896988@N08-72157719218268050/
+
+https://www.flickr.com/photos/goremirebob/8493026072/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/12a_kingmoor_klickr/26700779031/in/gallery-16896988@N08-72157717876224691/
+
+Industrial brick building
+https://www.flickr.com/photos/190924022@N03/51611161099/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/190924022@N03/51611159549/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/12a_kingmoor_klickr/50221621692/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/12a_kingmoor_klickr/50221503376/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/12a_kingmoor_klickr/50207179426/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/110691393@N07/21248948733/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/148713515@N04/31215749252/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/148713515@N04/32129407215/in/gallery-16896988@N08-72157719429614062/
+https://www.flickr.com/photos/johnmightycat/5950218313/in/gallery-16896988@N08-72157719218268050/
+https://www.flickr.com/photos/36891793@N08/7268892776/in/gallery-16896988@N08-72157719218268050/
+
+
+
+
+
+
+
+Cereclor wagon
+https://www.flickr.com/photos/hmillington/2037402167/ and next two
+
+
+CaC03
+https://www.flickr.com/photos/hmillington/2043812811/
+
+
+Starch? PBA hopper
+http://www.manlocosoc.co.uk/chulme/slide-webone-off.cgi?ch-021&66
+https://www.flickr.com/photos/hmillington/2043527151/
+
+
+scrap wagon
+https://paulbartlett.zenfolio.com/queenboroughsheerness
+
+
+PO diesel shunter (preston docks)
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/6/
+
+Electric
+https://www.flickr.com/photos/188593380@N02/51376846666/
+
+https://www.flickr.com/photos/65480188@N07/8382162628/in/gallery-16896988@N08-72157719218268050/
+
+
+
+
+Tip-Air
+https://www.rmweb.co.uk/topic/165080-interesting-and-inspiring-photos-from-flickr/page/18/
 
 
 Cryopod
+Medi-Bed
 Control panel
 Alien control panel
 Transmitter tower
@@ -184,3 +398,47 @@ Cage
 Hanging cage
 Cart
 Tower
+Bell tower
+Gatehouse
+Mine carts, etc
+
+
+
+
+
+-7.08384 m
+
+
+
+3rd and 4th radius, 300 and 330 mm
+Implies 30 mm clearance
+285 mm inside, 345 outside
+
+So need buttresses that are 50 mm and 60 mm widths
+Say a span and pier is 38', or 76 mm nominal for 315 radius
+The inside length is 76 * 285/315
+The outside length is 76 * 345/315
+Say the buttress/pier is 15 mm
+
+Double track, 3rd and 4th radius
+We have a section 76 mm long
+Say this is an angle of A
+Triangle hypot is 315, opp is 38
+sin A/2 = 38/315
+A/2 = 6.93
+
+Single track, 4th radius
+We have a section 76 mm long
+Say this is an angle of A
+Triangle hypot is 330, opp is 38
+sin A/2 = 38/315
+A/2 = 6.93
+
+
+
+
+
+
+
+81 bricks, 190 degrees, rotate half a brick
+190/81/2

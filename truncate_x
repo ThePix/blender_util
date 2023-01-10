@@ -1,0 +1,62 @@
+import bpy
+import bmesh
+
+
+ob = bpy.context.active_object
+me = ob.data
+bm = bmesh.from_edit_mesh(me)
+
+xlimit = None
+verts = []
+gap = 0.1
+
+#check for edit mode
+editmode = False
+if ob.mode == 'EDIT':
+    editmode =True
+    #the following sets mode to object by default
+    bpy.ops.object.mode_set()
+        
+        
+        
+        
+flags = [False] * len(me.vertices)
+        
+for v in me.vertices:
+    if v.select:
+        print(v.index)
+        print(v.co[0])
+        xlimit = v.co[0]
+        
+if xlimit != None:
+    for e in me.edges:
+        # this edge links two vertices
+        # Are they both below the limit?
+        # Are both above the limit?
+        # Do they straddle the limit?
+        
+        v1 = me.vertices[e.vertices[0]]
+        v2 = me.vertices[e.vertices[1]]
+        
+        if v1.co[0] > xlimit and v2.co[0] > xlimit:
+            flags[e.vertices[0]] = True
+            flags[e.vertices[1]] = True
+        elif v1.co[0] > xlimit:
+            v1.co[0] = xlimit
+        elif v2.co[0] > xlimit:
+            v2.co[0] = xlimit
+        
+
+    for idx, v in enumerate(me.vertices):
+        if flags[idx]:
+            verts.append(v)
+
+
+
+    print('l=' + str(len(verts)))
+    bmesh.ops.delete(bm, geom=verts, context=1)
+    bmesh.update_edit_mesh(me)    
+        
+#done editing, restore edit mode if needed
+if editmode:
+    bpy.ops.object.mode_set(mode = 'EDIT')

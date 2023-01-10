@@ -20,6 +20,51 @@ scale = 0.0   # How much the bricks vary
 
 
 
+def stone(x_offset, y_offset, z_offset, length, height):
+    bm = bmesh.new()
+    transform = Matrix.Identity(4)
+
+    for c in range(0,height):
+        z = c * (2 + gap)
+        x = 0
+        while x < length:
+            width = (length - x) / 2 if (2 + x > length) else 0.5 + random.random()
+        #    width = 0.5 + random.random()
+            x += width
+            #print(x)
+            bmesh.ops.create_cube(
+                bm,
+                #subdivisions=subdivisions,
+                size=2,
+                matrix=transform,
+                calc_uvs=false)    
+            mesh_name = "Cube ({0}, {1})".format(x, c)
+            mesh_data = bpy.data.meshes.new(mesh_name)
+            bm.to_mesh(mesh_data)
+            bm.free()
+
+            
+            
+            bpy.ops.mesh.primitive_cube_add(size=2, location=(x + x_offset, y + y_offset, z + z_offset))
+            cube = bpy.context.object
+            S = Matrix.Diagonal((width, 1, 1)).to_4x4()
+            cube.data.transform(S)
+            for v in cube.data.vertices:
+                v.co.x += scale * (random.random() - random.random())
+                v.co.y += scale * (random.random() - random.random())
+                v.co.z += scale * (random.random() - random.random())
+            cube.data.update()
+            x += width + gap
+            
+    bpy.ops.mesh.primitive_cube_add(size=2, location=(x_offset +length / 2, y_offset, height - 1 - gap / 2 + z_offset))
+    cube = bpy.context.object
+    S = Matrix.Diagonal((length / 2, 0.6, height * (1 + gap))).to_4x4()
+    cube.data.transform(S)
+    cube.data.update()
+
+
+
+
 
 def stone_wall(x_offset, y_offset, z_offset, length, height):
 
@@ -154,7 +199,7 @@ def flemish_bond(x_offset, y_offset, z_offset, length, height):
 
 
 
-flemish_bond( 5, 15, 10, 4, 8)
-#stone_wall(10, 10, 10, 20, 4)
+#flemish_bond( 5, 15, 10, 4, 8)
+stone_wall(10, 10, 100, 70, 30)
 #stone_wall(15, 10, 10, 20, 1)
 
